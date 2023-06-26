@@ -1,10 +1,13 @@
 {
-  "name": "next-example",
+  "name": "@antoniowingert/next-example",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "author": {
     "name": "Antonio Bruno Wingert",
     "email": "antoniobwingert@gmail.com"
+  },
+  "repository": {
+    "url": "antoniowingert/next-example"
   },
   "scripts": {
     "dev": "next dev",

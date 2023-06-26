@@ -18,3 +18,5 @@ const theme = {
 };
 
 export default theme;
+
+const vara = 'aaa'

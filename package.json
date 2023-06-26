@@ -22,7 +22,7 @@
     }
   },
   "lint-staged": {
-    "src/**/*.{ts, tsx, js, jsx}": [
+    "src/**/*": [
       "npm run lint",
       "npm run test"
     ]

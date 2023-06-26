@@ -7,7 +7,7 @@ export default function Header() {
   return (
     <S.Container>
       <CustomTitle $size="md" $as="h2" $color="danger">
-        olá mundo
+        olá mundo a
       </CustomTitle>
       <CustomButton $variable="primary">button</CustomButton>
     </S.Container>

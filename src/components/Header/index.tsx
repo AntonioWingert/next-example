@@ -1,7 +1,7 @@
-import * as S from './styles'
+import * as S from './styles';
 
-import CustomTitle from '../CustomTitle'
-import CustomButton from '../CustomButton'
+import CustomTitle from '../CustomTitle';
+import CustomButton from '../CustomButton';
 
 export default function Header() {
   return (
@@ -11,5 +11,5 @@ export default function Header() {
       </CustomTitle>
       <CustomButton $variable="primary">button</CustomButton>
     </S.Container>
-  )
+  );
 }

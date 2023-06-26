@@ -15,6 +15,6 @@ const theme = {
     md: 'text-4xl',
     lg: 'text-6xl',
   },
-}
+};
 
-export default theme
+export default theme;

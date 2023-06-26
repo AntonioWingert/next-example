@@ -1,13 +1,13 @@
-import React from 'react'
+import React from 'react';
 
-import * as S from './styles'
+import * as S from './styles';
 
 export type TitleProps = {
-  children: React.ReactNode
-  $size?: 'sm' | 'md' | 'lg'
-  $color?: 'primary' | 'secondary' | 'danger'
-  $as?: 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6'
-}
+  children: React.ReactNode;
+  $size?: 'sm' | 'md' | 'lg';
+  $color?: 'primary' | 'secondary' | 'danger';
+  $as?: 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6';
+};
 
 export default function CustomTitle({
   children,
@@ -19,5 +19,5 @@ export default function CustomTitle({
     <S.Container $color={$color} $size={$size} $as={$as}>
       {children}
     </S.Container>
-  )
+  );
 }

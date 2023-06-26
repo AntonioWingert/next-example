@@ -1,4 +1,4 @@
-import tw from 'tailwind-styled-components';
+import tw from 'tailwind-styled-components'
 
 export const Container = tw.header`
   w-screen
@@ -8,4 +8,4 @@ export const Container = tw.header`
   items-center
   h-40
   gap-2
-`;
+`

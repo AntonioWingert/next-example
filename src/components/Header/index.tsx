@@ -6,12 +6,10 @@ import CustomButton from '../CustomButton'
 export default function Header() {
   return (
     <S.Container>
-      <CustomTitle $size='md' $as='h2' $color='danger'>
+      <CustomTitle $size="md" $as="h2" $color="danger">
         title
       </CustomTitle>
-      <CustomButton $variable='primary'>
-        button
-      </CustomButton>
+      <CustomButton $variable="primary">button</CustomButton>
     </S.Container>
   )
 }
